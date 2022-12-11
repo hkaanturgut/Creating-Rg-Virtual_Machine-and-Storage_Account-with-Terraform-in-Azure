@@ -12,7 +12,7 @@ By using Terraform in Azure
 To fulfill the task's case , I have used module structure.
 #
  # Steps that should be following ;
-- Create (root) main.tf , variables.tf , outputs.tf and dev.tfvars
+- Create (root) main.tf , variables.tf , outputs.tf , providers.tf and dev.tfvars
 
 - Create a (root) module folder.
 
