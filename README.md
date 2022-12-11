@@ -2,7 +2,7 @@
 
  # Task 
 
-By using Terraform 
+By using Terraform in Azure
 - Create a Resource Group
 - Create a Virtual Machine
 - Create a Storage account   
@@ -11,7 +11,7 @@ By using Terraform
 
 To fulfill the task's case , I have used module structure.
 #
-Steps that should be following ;
+ # Steps that should be following ;
 - Create (root) main.tf , variables.tf , outputs.tf and dev.tfvars
 
 - Create a (root) module folder.
@@ -28,6 +28,7 @@ Steps that should be following ;
 
 - After plan looks good , do [ terraform apply -var-file="dev.tfvars" ]
 
-Then you will have a similar view of environment in portal
+At the end , you will have a similar view of environment in portal like this
 
 
+![portal_view](https://user-images.githubusercontent.com/113396342/206912392-6a8f3494-2e06-4f24-8d6f-89856bef6260.png)
