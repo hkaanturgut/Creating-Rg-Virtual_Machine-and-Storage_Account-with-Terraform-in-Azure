@@ -19,7 +19,9 @@ To fulfill the task's case , I have used module structure.
 - Create resource module folders for each resource inside the (root) module folder
 
 - Create main.tf and variables.tf inside the each resource module to create the resource
-
+#
+- NOTE : I used  {for_each} loop to create the subnet , to make the code more useful in the cases of creating more subnets.
+#
 - After done with the resource modules , create module blocks inside the (root) main.tf
 
 - Fullfill the variables.tf with the variables and dev.tfvars file with the values
