@@ -1,1 +1,33 @@
-# Creating-Rg-Virtual_Machine-and-Storage_Account-with-Terraform-in-Azure
+
+
+ # Task 
+
+By using Terraform 
+- Create a Resource Group
+- Create a Virtual Machine
+- Create a Storage account   
+#
+
+
+To fulfill the task's case , I have used module structure.
+#
+Steps that should be following ;
+- Create (root) main.tf , variables.tf , outputs.tf and dev.tfvars
+
+- Create a (root) module folder.
+
+- Create resource module folders for each resource inside the (root) module folder
+
+- Create main.tf and variables.tf inside the each resource module to create the resource
+
+- After done with the resource modules , create module blocks inside the (root) main.tf
+
+- Fullfill the variables.tf with the variables and dev.tfvars file with the values
+
+- Do [ terraform init ] > [ terraform plan -var-file="dev.tfvars" ] 
+
+- After plan looks good , do [ terraform apply -var-file="dev.tfvars" ]
+
+Then you will have a similar view of environment in portal
+
+
