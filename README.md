@@ -1,0 +1,1 @@
+# Creating-Rg-Virtual_Machine-and-Storage_Account-with-Terraform-in-Azure
